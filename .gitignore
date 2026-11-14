@@ -23,3 +23,4 @@ echo # OS files
 echo .DS_Store
 echo Thumbs.db
 ) > .gitignore
+node_modules
