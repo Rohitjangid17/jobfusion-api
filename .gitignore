@@ -1,0 +1,25 @@
+(
+echo # Dependencies
+echo node_modules/
+echo.
+echo # Environment variables
+echo .env
+echo .env.*
+echo !.env.example
+echo.
+echo # Build output
+echo dist/
+echo build/
+echo.
+echo # Logs
+echo *.log
+echo npm-debug.log*
+echo.
+echo # IDE
+echo .vscode/
+echo .idea/
+echo.
+echo # OS files
+echo .DS_Store
+echo Thumbs.db
+) > .gitignore
